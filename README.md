@@ -33,6 +33,13 @@ Our aim was to successfully use the concepts of Deep Q-learning and train a syst
 * Two windows will pop up, one showing the game and other a graph of current score and also a rolling average.
 * Let the model learn for a while, upto about 150 games and be amazed by the results.
 
+## Explanation
+* Created an agent to interact with a custom built Snake game environment using the Pygame library.
+* The agent observes the game state by encoding information like snake position, food location, and danger zones into a numerical vector, it also controls the choice of the next action
+* The core of the agent is a Q-Network implemented with PyTorch. This network predicts the future reward for each possible action based on the current state. The agent learns by exploring different actions, receiving rewards (or penalties), and updating the Q-Network based on those experiences.
+* To improve learning efficiency, the agent utilizes experience replay. It stores past experiences (state, action, reward, next state) in a memory buffer and randomly samples from it for training the Q-Network.
+* The code employs a helper function to plot the training scores and their rolling average over time. This visualization provides a clear representation of the agent’s learning trajectory.
+
 ## Applications:
 This project built an ML model that plays the Snake game, but it's more than just a game. The real strength is its flexibility. By changing the game's settings, how the model gets rewarded, and the complexity of its brain (the neural network), this system could be used for other games too. We started with the Snake game to build a strong foundation. In the future, this system could be used to solve puzzles, master different game types, or even learn to compete against itself. This project opens the door to exciting possibilities in machine learning and game AI.
 
