@@ -1,19 +1,7 @@
 #  Applying the concepts of Deep Q-learning to train a system agent to play the Snake game.
-(This project was made by us when we participated in a hackathon)
-
-##  Track:
-Machine Learning (ML)
-
-## Contributors:
-* Arnav Oruganty
-* Gourav Anirudh
-* Subhash Hari
-
-## Problem Statement:
-To train a system agent to learn and eventually(after a lot of training) be as good if not better than us at the classic Snake game.
 
 ## Goal:
-Our aim was to successfully use the concepts of Deep Q-learning and train a system agent to play a version of the Snake game implemented by us.
+The aim was to successfully use the concepts of Deep Q-learning and train a system agent to play a version of the Snake game implemented by us.
 
 ## Tech Stack:
 * Python
@@ -41,7 +29,7 @@ Our aim was to successfully use the concepts of Deep Q-learning and train a syst
 * The code employs a helper function to plot the training scores and their rolling average over time. This visualization provides a clear representation of the agent’s learning trajectory.
 
 ## Applications:
-This project built an ML model that plays the Snake game, but it's more than just a game. The real strength is its flexibility. By changing the game's settings, how the model gets rewarded, and the complexity of its brain (the neural network), this system could be used for other games too. We started with the Snake game to build a strong foundation. In the future, this system could be used to solve puzzles, master different game types, or even learn to compete against itself. This project opens the door to exciting possibilities in machine learning and game AI.
+This project built an ML model that plays the Snake game, but it's more than just a game. The real strength is its flexibility. By changing the game's settings, how the model gets rewarded, and the complexity of the neural network, this system could be used for other games too. We started with the Snake game to build a strong foundation. In the future, this system could be used to solve puzzles, master different game types, or even learn to compete against itself. This project opens the door to exciting possibilities in machine learning and game AI.
 
 ## Further Improvements:
 * We could have had a better UI for the game or even chosen a more complicated game.
