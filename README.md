@@ -1,7 +1,7 @@
 #  Applying the concepts of Deep Q-learning to train a system agent to play the Snake game.
 
 ## Goal:
-The aim was to successfully use the concepts of Deep Q-learning and train a system agent to play a version of the Snake game implemented by us.
+The aim was to successfully use the concepts of Deep Q-learning and train a system agent to play a custom version of the classic Snake Game.
 
 ## Tech Stack:
 * Python
@@ -29,12 +29,12 @@ The aim was to successfully use the concepts of Deep Q-learning and train a syst
 * The code employs a helper function to plot the training scores and their rolling average over time. This visualization provides a clear representation of the agent’s learning trajectory.
 
 ## Applications:
-This project built an ML model that plays the Snake game, but it's more than just a game. The real strength is its flexibility. By changing the game's settings, how the model gets rewarded, and the complexity of the neural network, this system could be used for other games too. We started with the Snake game to build a strong foundation. In the future, this system could be used to solve puzzles, master different game types, or even learn to compete against itself. This project opens the door to exciting possibilities in machine learning and game AI.
+This project built an ML model that plays the Snake game, but it's more than just a game. The real strength is its flexibility. By changing the game's settings, how the model gets rewarded, and the complexity of the neural network, this system could be used for other games too. I started with the Snake game to build a strong foundation. In the future, this system could be used to solve puzzles, master different game types, or even learn to compete against itself. This project opens the door to exciting possibilities in machine learning and game AI.
 
 ## Further Improvements:
-* We could have had a better UI for the game or even chosen a more complicated game.
-* We could have added other elements like bonus points or score multipliers etc. to make the game more fun.
-* We could have implemented the model such that it was more accurate by either adding more layers to the neural network or even optimising the reward function, we could have also exploited the tradeoff between exploration and exploitation to try more random things at the start. 
+* Could have had a better UI for the game or even chosen a more complicated game.
+* Could have added other elements like bonus points or score multipliers etc. to make the game more fun.
+* Could have implemented the model such that it was more accurate by either adding more layers to the neural network or even optimising the reward function, could have also exploited the tradeoff between exploration and exploitation to try more random things at the start. 
 
 ## Conclusion
 * This project successfully implemented a machine learning model capable of playing the Snake game. The model demonstrates the ability to learn and improve its performance over time, as evidenced by the increasing scores depicted in the progress graph. While the current implementation focuses on the core elements of the game, it lays a strong foundation for further development. Future iterations could explore incorporating more complex strategies, introducing obstacles, or even evolving the model to compete against itself or other AI players. Overall, this project serves as a valuable exploration of machine learning in a simple yet engaging environment.
